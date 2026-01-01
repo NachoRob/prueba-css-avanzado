@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start; 
+    width: 100%;
+}
+
+.menu-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-platinum);
+    flex: 1;
+    min-height: 100vh;
+}
+
+.right-pannel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0b091a; 
+    padding: 0;
+}
+
+.gallery-section {
+    background-image: url('../img/main-background.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 0; 
+    width: 100%;
+}
+
+.elementos-flex img {
+    width: 280px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.elementos-flex img:hover {
+    transform: scale(1.05); /* Efecto de acercamiento al pasar el mouse */
+}
+
+.main-flex-row {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    width: 100%;
+    padding: 20px; 
+}
+
+.left-pannel {
+    display: flex; 
+    flex-direction: column;
+    width: 12em; 
+    background-color: #131419;
+    height: 100vh;
+    position: sticky; 
+    top: 0;
+    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.left-pannel img {
+    width: 10rem; 
+    height: auto; 
+    display: block;
+    margin: 0 auto 2rem auto; 
+}
+
+.left-pannel i{
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.left-pannel a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/footer.png');
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100px; 
+    color: white;
+    margin-top: 0; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0b091a;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.social-links{
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+footer i {
+    color: white;
+}
+
+.flex-testimonies {
+    display: flex;
+    gap: 0; /* Si quieres que estén pegadas para notar el cambio de color */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.test-box {
+    flex: 1;
+    padding: 120px 60px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px; 
+}
+
+.test-box.dark {
+    background-color: #0f0c29; /* Un azul muy oscuro espacial */
+    color: white;
+}
+
+.test-box.light {
+    background-color: #ffffff;
+    color: #0f0c29;
+}
+
+.test-box i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+
+.test-box p {
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.gallery-section, 
+.flex-testimonies, 
+footer {
+    width: 100%;
+}
+

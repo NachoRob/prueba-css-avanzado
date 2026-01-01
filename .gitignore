@@ -1,0 +1,36 @@
+# Archivos y carpetas generadas por macOS
+.DS_Store
+.Trashes
+.Spotlight-V100
+.TemporaryItems
+.fseventsd
+
+# Archivos de caché e indexación comunes
+*.swp
+*.bak
+*~
+.idea/
+.vscode/
+
+# Dependencias de paquetes y archivos de build
+/node_modules
+/vendor
+/build
+/dist
+/out
+
+# Archivos de logs
+*.log
+
+# Archivos de la aplicación Xcode (si es un proyecto de iOS/macOS)
+# Si no es un proyecto de Apple, puedes omitir esta sección
+/DerivedData
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Archivos de configuración sensibles (¡NO SUBIR!)
+.env
+.env.local
+
+
+
