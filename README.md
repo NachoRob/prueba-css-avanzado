@@ -10,7 +10,7 @@
 Bienvenido al repositorio de **Space Odyssey**, una landing page de alto rendimiento diseñada para la exploración de efectos y simuladores de guitarra con una estética galáctica y futurista.
 
 ## 🌐 Demo en Vivo
-**[Ver proyecto en GitHub Pages →](https://nachorob.github.io/Space-Odyssey/)**
+**[Ver proyecto en GitHub Pages →](https://github.com/NachoRob/prueba-css-avanzado)**
 
 ---
 
@@ -174,4 +174,4 @@ Si tienes preguntas o sugerencias sobre este proyecto:
 
 ⭐ Si te gustó este proyecto, considera darle una estrella en GitHub
 
-**[Ver proyecto en vivo →](https://nachorob.github.io/Space-Odyssey/)**
+**[Ver proyecto en vivo →](https://nachorob.github.io/prueba-css-avanzado/)**
