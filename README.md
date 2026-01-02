@@ -158,7 +158,7 @@ Durante el desarrollo de este proyecto se implementaron:
 
 **Diseñado y desarrollado por**: Ignacio Robles  
 **Academia**: Desafío Latam  
-**Año**: 2024
+**Año**: 2025
 
 ---
 
